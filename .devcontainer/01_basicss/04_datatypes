@@ -1,0 +1,29 @@
+//primitive
+
+//7 types-> String,Number,boolean,null,undefined,Symbol,BigInt
+
+//Reference(non primitive)
+//Array,objects,functions
+const score=100
+const scoreValue=100.3
+
+const isLoggedin=false
+const outsideTemp=null
+let userEmail;     //here value is undefined
+
+const Id=Symbol('123')
+const anotherId=Symbol('123')
+console.log(Id===anotherId)
+
+const bigNumber=23424564565776n
+console.log(bigNumber)
+
+
+
+//javascript is dynamically typed language
+const heroes=["shaktiman","nagraaj","doga"]
+let myobj={
+    name: "Mahak",
+    age: 18,
+
+}
