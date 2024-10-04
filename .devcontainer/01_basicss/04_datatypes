@@ -21,9 +21,49 @@ console.log(bigNumber)
 
 
 //javascript is dynamically typed language
-const heroes=["shaktiman","nagraaj","doga"]
+const heroes=["shaktiman","nagraaj","doga"] //Array
 let myobj={
     name: "Mahak",
     age: 18,
 
+}    //object
+
+const myFunction=function(){
+    console.log("Hello world")
 }
+
+console.log(typeof bigNumber)
+console.log(typeof scoreValue)
+console.log(typeof outsideTemp)
+
+// typeof value--> result
+//number-->number
+//boolean-->boolean
+//undefined-->undefined
+//null-->object
+//object-->object
+//array-->object
+//function-->object_function
+
+//assignment of data typeee value result....
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//two types of memory
+//Stack memory(Primitive)--->calls the copy,Heap memory(Non-primitive)--->calls the original reference
+
+let myYoutubename="mahakmakkardotcom"
+let anothername=myYoutubename
+anothername="makkarmhk.com"
+console.log(myYoutubename)
+console.log(anothername)
+
+let userOne={
+    userId: "mahak@google.com",
+    email:"mahak@ybl"
+     
+}
+let userTwo=userOne
+userTwo.email="mahakmkkr@gmail.com"
+console.log(userOne.email)
+console.log(userTwo.email)
